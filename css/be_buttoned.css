@@ -1,0 +1,23 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 801px;
+  width: 801px;
+  border: solid 1px #000;
+  list-style: none;
+}
+
+.tile {
+  height: 80px;
+  width: 80px;
+  background: blue;
+  margin: 10px;
+}
+
+.button {
+  align-items: center;
+  height: 78px;
+  width: 78px;
+  /*margin: 1px;*/
+}
