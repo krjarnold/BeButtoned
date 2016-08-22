@@ -1,23 +1,109 @@
+html, body, section, article, div, label, input, form, header,
+h1, h2, h3, p, ul, strong, em, a, li, button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+  font: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+  // text-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+.view {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
 .board {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   height: 801px;
-  width: 801px;
-  border: solid 1px #000;
+  max-width: 801px;
+  /*border: dashed 5px #44899c;*/
+  /*border: dashed 5px #001cba;*/
+  border: dashed 5px #9401fb;
+  color: #001cba;
   list-style: none;
+  position: relative;
+  top: 0;
 }
 
+.button-active {
+  position: absolute;
+
+}
 .tile {
-  height: 80px;
-  width: 80px;
-  background: blue;
-  margin: 10px;
+  display: block;
+  position: relative;
+  top: 0;
+  /*text-align: center;*/
+  color: #fafafa;
+  height: 90px;
+  width: 90px;
+  /*background: blue;*/
+  margin: 5px;
+  top: -100;
+  transition: top 5s;
+  /*top: 100;*/
 }
 
 .button {
+  /*transform: rotate(-360deg);*/
+  position: absolute;
   align-items: center;
-  height: 40px;
-  width: 40px;
-  /*margin: 1px;*/
+  height: 80px;
+  width: 80px;
+  /*opacity: 1;*/
+  margin: 5px;
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 72px;
+  color: #9401fb;
+  /*color: #001cba;*/
+}
+
+.welcome {
+  margin: 20px 0;
+  padding: 20px;
+  border: dashed 5px #9401fb;
+  height: auto;
+  width: 600px;
+  font-family: 'Bad Script', cursive;
+  font-size: 24px;
+  /*color: #9401fb;*/
+  color: #001cba;
+}
+
+.score {
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  border: dashed 5px #9401fb;
+  height: auto;
+  width: auto;
+  font-family: 'Bad Script', cursive;
+  font-size: 72px;
+  /*color: #9401fb;*/
+  color: #001cba;
+
+}
+
+.clicked {
+  background: blue;
 }
