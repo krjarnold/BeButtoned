@@ -1,5 +1,5 @@
 html, body, section, article, div, label, input, form, header,
-h1, h2, h3, p, ul, strong, em, a, li, button {
+h1, h2, h3, p, ul, strong, em, a, li, button, img {
   margin: 0;
   border: 0;
   padding: 0;
@@ -43,10 +43,12 @@ h1, h2, h3, p, ul, strong, em, a, li, button {
   top: 0;
 }
 
-.button-active {
+/*.button:active {
+  transition: opacity 5s;
   position: absolute;
+  opacity: 0.3;
+}*/
 
-}
 .tile {
   display: block;
   position: relative;
@@ -68,9 +70,17 @@ h1, h2, h3, p, ul, strong, em, a, li, button {
   align-items: center;
   height: 80px;
   width: 80px;
-  /*opacity: 1;*/
+  transition: opacity 2s;
+  opacity: 1;
   margin: 5px;
+  -webkit-animation-duration: 0.5s;
+  /*-webkit-animation-iteration-count: infinite;*/
 }
+
+/*.button:hover {
+  opacity: 0.3;
+}*/
+
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 72px;
