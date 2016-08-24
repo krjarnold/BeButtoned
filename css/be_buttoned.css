@@ -31,7 +31,7 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
 }
 
 .board {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -44,8 +44,8 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
   max-width: 801px;
   height: 100%;
   width: 100%;*/
-  min-height: 641px;
-  width: 641px;
+  min-height: 401px;
+  width: 401px;
   /*padding: 20px;*/
   /*border: dashed 5px #44899c;*/
   /*border: dashed 5px #001cba;*/
@@ -68,8 +68,8 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
   /*flex-direction: column;*/
   color: #fafafa;
   /*background: red;*/
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   /*max-height: 90px;*/
   /*max-width: 90px;*/
   /*heighst: 100%;*/
@@ -88,8 +88,8 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
   max-width: 80px;
   height: 100%;
   width: 100%;*/
-  height: 68px;
-  width: 68px;
+  height: 45px;
+  width: 45px;
   /*max-height: 80px;*/
   /*max-width: 10px;*/
   /*height: 100%;*/
@@ -112,7 +112,7 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
 }*/
 
 h1 {
-  padding-top: 50px;
+  padding-top: 70px;
   font-family: 'Sacramento', cursive;
   font-size: 72px;
   /*color: #fff;*/
@@ -125,40 +125,24 @@ h1 {
   /*color: #001cba;*/
 }
 
-.welcome {
-  position: absolute;
-  /*background: #fff;*/
-  background: #fff1eb;
 
-  z-index: 50;
-  top: 20%;
-  margin: 20px 0;
-  padding: 20px;
-  /*border: dashed 5px #4f8caf;*/
-  /*border: dashed 5px #ff3380;*/
-  border: dashed 5px #e896cf;
-  height: auto;
-  width: 600px;
-  font-family: 'Bad Script', cursive;
-  font-size: 24px;
-  /*color: #001cba;*/
-  color: #4f8caf;
-}
 
 .score {
   margin-top: 50px;
   position: absolute;
+  display: flex;
+  flex-direction: column;
   top: 25%;
   left: -43%;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 
   border: dashed 5px #4f8caf;
   height: auto;
-  width: 187px;
+  width: 116px;
   /*font-family: 'Bad Script', cursive;*/
   font-family: 'Nixie One', cursive;
-  font-size: 36px;
+  font-size: 24px;
   /*background: #fff;*/
   background: #fff1eb;
 
@@ -177,6 +161,27 @@ h1 {
 
 .welcome-fade {
   opacity: 0.5;
+}
+
+.welcome {
+  position: absolute;
+  /*background: #fff;*/
+  background: #fff1eb;
+
+  z-index: 50;
+  top: 15%;
+  margin: 20px 0;
+  padding: 20px;
+  /*border: dashed 5px #4f8caf;*/
+  /*border: dashed 5px #ff3380;*/
+  border: dashed 5px #e896cf;
+  height: auto;
+  width: 380px;
+  /*font-family: 'Bad Script', cursive;*/
+  font-family: 'Nixie One', cursive;
+  font-size: 20px;
+  /*color: #001cba;*/
+  color: #4f8caf;
 }
 
 .welcome-container {
@@ -213,15 +218,16 @@ h1 {
   background: #fff1eb;
 
   z-index: 50;
-  bottom: 20%;
-  height: 160px;
-  width: 160px;
+  bottom: 30%;
+  height: 100px;
+  width: 100px;
   color: #001cba;
 }
 
 .start-text {
-  font-family: 'Bad Script', cursive;
-  font-size: 36px;
+  /*font-family: 'Bad Script', cursive;*/
+  font-family: 'Nixie One', cursive;
+  font-size: 26px;
   /*color: #001cba;*/
   color: #4f8caf;
 }
@@ -241,19 +247,20 @@ h1 {
 }
 
 .header-container {
-  /*background: blue;
-  /*opacity: 0.5;*/*/
+  /*position: absolute;*/
+  /*background: blue;*/
+  /*opacity: 0.5;*/
 
 }
 .quilt {
   opacity: 0.9;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   z-index: -1;
-  min-width: 1000px;
-  min-height: 700px;
+  min-width: 800px;
+  min-height: 800px;
   width: auto;
-  max-width: 1267px;
-  max-height: 1091px;
+  max-width: 800px;
+  max-height: 800px;
   /*min-width: 1067px;
   min-height: 891px;
   width: auto;
