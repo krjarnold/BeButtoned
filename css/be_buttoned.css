@@ -26,6 +26,8 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
   left: 0;
   width: auto;
   height: auto;
+  /*background: #f7e9d7;*/
+  background: #fff1eb;
 }
 
 .board {
@@ -34,7 +36,8 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  /*background: #fff;*/
+  background: #fff1eb;
   /*min-height: 401px;
   min-width: 401px;
   max-height: 801px;
@@ -46,7 +49,8 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
   /*padding: 20px;*/
   /*border: dashed 5px #44899c;*/
   /*border: dashed 5px #001cba;*/
-  border: dashed 5px #9401fb;
+  /*border: dashed 5px #9401fb;*/
+  border: dashed 5px #4f8caf;
   color: #001cba;
   list-style: none;
   position: relative;
@@ -96,8 +100,11 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
   /*position: relative;*/
  }
 
- .bounce {
+ .pulse {
+   /*filter: grayscale(0.5);*/
    -webkit-animation-iteration-count: infinite;
+   /*-webkit-animation-delay: 1s;*/
+   /*filter: drop-shadow(30px 30px 30px black);*/
  }
 
 /*.button:hover {
@@ -109,25 +116,33 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 72px;
   /*color: #fff;*/
-  color: #9401fb;
+  /*color: #9401fb;*/
+  /*color: #4f8caf;*/
+  color: #ff3380;
+  text-shadow: 4px 4px 0 #fff,
+              1px 1px 50px #fff;
 
   /*color: #001cba;*/
 }
 
 .welcome {
   position: absolute;
-  background: #fff;
+  /*background: #fff;*/
+  background: #fff1eb;
+
   z-index: 50;
   top: 20%;
   margin: 20px 0;
   padding: 20px;
-  border: dashed 5px #9401fb;
+  /*border: dashed 5px #4f8caf;*/
+  /*border: dashed 5px #ff3380;*/
+  border: dashed 5px #e896cf;
   height: auto;
   width: 600px;
   font-family: 'Bad Script', cursive;
   font-size: 24px;
-  /*color: #9401fb;*/
-  color: #001cba;
+  /*color: #001cba;*/
+  color: #4f8caf;
 }
 
 .score {
@@ -137,12 +152,16 @@ h1 {
   left: -43%;
   text-align: center;
   padding: 20px;
-  border: dashed 5px #9401fb;
+
+  border: dashed 5px #4f8caf;
   height: auto;
-  width: auto;
-  font-family: 'Bad Script', cursive;
-  font-size: 72px;
-  background: #fff;
+  width: 187px;
+  /*font-family: 'Bad Script', cursive;*/
+  font-family: 'Nixie One', cursive;
+  font-size: 36px;
+  /*background: #fff;*/
+  background: #fff1eb;
+
   /*color: #9401fb;*/
   color: #001cba;
 
@@ -162,7 +181,9 @@ h1 {
 
 .welcome-container {
   position: absolute;
-  background: blue;
+  /*background: blue;*/
+  /*background: #4f8caf;*/
+  background: #e896cf;
   opacity: 0.5;
   z-index: 30;
   /*display: flex;
@@ -183,20 +204,26 @@ h1 {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  border: dashed 5px #9401fb;
+  /*border: dashed 5px #4f8caf;*/
+  /*border: dashed 5px #ff3380;*/
+  border: dashed 5px #e896cf;
   /*text-align: center;*/
   /*padding: 30px 20px 30px 20px;*/
-  background: #fff;
+  /*background: #fff;*/
+  background: #fff1eb;
+
   z-index: 50;
   bottom: 20%;
   height: 160px;
   width: 160px;
+  color: #001cba;
 }
 
 .start-text {
   font-family: 'Bad Script', cursive;
   font-size: 36px;
-  color: #9401fb;
+  /*color: #001cba;*/
+  color: #4f8caf;
 }
 
 .game-container {
@@ -214,6 +241,8 @@ h1 {
 }
 
 .header-container {
+  /*background: blue;
+  /*opacity: 0.5;*/*/
 
 }
 .quilt {
