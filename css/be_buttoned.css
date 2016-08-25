@@ -287,9 +287,10 @@ h1 {
 
 .notifications {
   position: absolute;
+  padding: 5px;
   border: dashed 5px #4f8caf;
-  bottom: -70px;
-  width: 401px;
+  top: 420px;
+  width: 391px;
   font-family: 'Nixie One', cursive;
   font-size: 20px;
   text-align: center;
