@@ -299,3 +299,28 @@ h1 {
 
 
 }
+
+
+.bonus {
+  margin-top: 50px;
+  position: absolute;
+  top: 25%;
+  right: -43%;
+  text-align: center;
+  padding: 10px;
+
+  border: dashed 5px #4f8caf;
+  height: auto;
+  width: 116px;
+  /*font-family: 'Bad Script', cursive;*/
+  font-family: 'Nixie One', cursive;
+  /*font-family: 'Sacramento', cursive;*/
+  font-size: 36px;
+  /*background: #fff;*/
+  background: #fff1eb;
+
+  /*color: #9401fb;*/
+  /*color: #001cba;*/
+  color: #ff3380;
+
+}
