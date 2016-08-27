@@ -324,3 +324,62 @@ h1 {
   color: #ff3380;
 
 }
+
+
+
+.losing-image {
+position: absolute;
+/*display: block;*/
+/*background: #fff;*/
+background: #fff1eb;
+opacity: 1;
+z-index: 50;
+top: 200px;
+margin: 20px 0;
+padding: 20px;
+border: dashed 5px #4f8caf;
+/*border: dashed 5px #ff3380;*/
+/*border: dashed 5px #e896cf;*/
+height: auto;
+width: 380px;
+/*font-family: 'Bad Script', cursive;*/
+
+}
+
+.losing-container {
+  position: absolute;
+  /*background: blue;*/
+  background: #4f8caf;
+  /*background: #e896cf;*/
+  opacity: 0.5;
+  z-index: 40;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+  /*justify-content: center;*/
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+
+.losing-text {
+  /*display: block;*/
+  opacity: 1;
+  position: absolute;
+  /*background: red;*/
+  height: 20px;
+  z-index: 51;
+  top: 254px;
+  right: 428px;
+  margin: 20px 0;
+  padding: 20px;
+  font-family: 'Nixie One', cursive;
+  font-size: 20px;
+  /*color: #001cba;*/
+  color: #4f8caf;
+  -webkit-animation-delay: 1s;
+}
