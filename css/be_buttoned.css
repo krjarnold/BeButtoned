@@ -26,8 +26,9 @@ h1, h2, h3, p, ul, strong, em, a, li, button, img {
   left: 0;
   width: auto;
   height: auto;
+  background: #fff;
   /*background: #f7e9d7;*/
-  background: #fff1eb;
+  /*background: #fff1eb;*/
 }
 
 .board {
@@ -182,7 +183,7 @@ h1 {
   background: #fff1eb;
 
   z-index: 50;
-  top: 15%;
+  top: 200px;
   margin: 20px 0;
   padding: 20px;
   /*border: dashed 5px #4f8caf;*/
@@ -208,12 +209,12 @@ h1 {
   flex-direction: column;
   align-items: center;*/
   /*justify-content: center;*/
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: auto;
-  height: auto;
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*left: 0;*/
+  width: 920px;
+  height: 800px;
 }
 
 .start-button {
@@ -231,7 +232,7 @@ h1 {
   background: #fff1eb;
 
   z-index: 50;
-  bottom: 30%;
+  top: 500px;
   height: 100px;
   width: 100px;
   color: #001cba;
@@ -357,12 +358,12 @@ width: 380px;
   flex-direction: column;
   align-items: center;*/
   /*justify-content: center;*/
-  top: 0;
+  /*top: 0;
   bottom: 0;
   right: 0;
-  left: 0;
-  width: auto;
-  height: auto;
+  left: 0;*/
+  width: 920px;
+  height: 800px;
 }
 
 
@@ -374,7 +375,7 @@ width: 380px;
   height: 20px;
   z-index: 51;
   top: 254px;
-  right: 428px;
+  right: 654px;
   margin: 20px 0;
   padding: 20px;
   font-family: 'Nixie One', cursive;
@@ -382,4 +383,10 @@ width: 380px;
   /*color: #001cba;*/
   color: #4f8caf;
   -webkit-animation-delay: 1s;
+}
+
+.group {
+  display: block;
+  content: "";
+  clear: both;
 }
