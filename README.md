@@ -1,7 +1,7 @@
-#Be-Buttoned
-##*A browser game built with JavaScript, jQuery, and Animate.css*
+# Be-Buttoned
+## *A browser game built with JavaScript, jQuery, and Animate.css*
 
-###[Be-Buttoned live](https://krjarnold.github.io/BeButtoned/)
+### [Be-Buttoned live](https://krjarnold.github.io/BeButtoned/)
 
 The game that Be-Buttoned is modeled after is Bejeweled which was one of the predecessors to the now popular Candy Crush Saga.
 
